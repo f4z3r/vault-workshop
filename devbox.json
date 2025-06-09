@@ -1,0 +1,26 @@
+{
+  "packages": [
+    "python@3.13.3",
+    "python313Packages.jupyterlab@4.4.1",
+    "python313Packages.bash-kernel@0.10.0",
+    "jq@1.7",
+    "vault-bin@1.19.4",
+    "terraform@1.12.1",
+    "openssl@3.4.1",
+  ],
+  "shell": {
+    "init_hook": [
+      "mkdir -p /tmp/vault",
+      "python -m bash_kernel.install --user",
+    ],
+    "scripts": {
+      "start": [
+        "jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=''",
+      ],
+      "stop": [
+        "pkill jupyter",
+        "pkill vault",
+      ],
+    },
+  },
+}
