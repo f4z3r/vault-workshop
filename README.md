@@ -64,7 +64,7 @@ docker run --rm \
   --name vault-workshop \
   -v /tmp/vault \
   -v ./:/app/ \
-  ghcr.io/f4z3r/vault-workshop:main
+  ghcr.io/f4z3r/vault-workshop:v0.0.1
 ```
 
 Then navigate `http://localhost:8888` in your browser. You will find the modules under the
