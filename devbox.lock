@@ -430,99 +430,99 @@
         }
       }
     },
-    "terraform@1.12.1": {
-      "last_modified": "2025-05-22T03:53:02Z",
-      "resolved": "github:NixOS/nixpkgs/a16efe5d2fc7455d7328a01f4692bfec152965b3#terraform",
+    "terraform@1.12.2": {
+      "last_modified": "2025-06-12T07:29:08Z",
+      "resolved": "github:NixOS/nixpkgs/d202f48f1249f013aa2660c6733e251c85712cbe#terraform",
       "source": "devbox-search",
-      "version": "1.12.1",
+      "version": "1.12.2",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/kqk0wn39lhnmvhbk3s997lna2l95fzfw-terraform-1.12.1",
+              "path": "/nix/store/d8bjicybf92vxcapviilv5b623j0zqwk-terraform-1.12.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/kqk0wn39lhnmvhbk3s997lna2l95fzfw-terraform-1.12.1"
+          "store_path": "/nix/store/d8bjicybf92vxcapviilv5b623j0zqwk-terraform-1.12.2"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/ssvlf1aacjgrldkqfc68nw234vq65yyj-terraform-1.12.1",
+              "path": "/nix/store/gijy95xda5c5wf094dwayb6kgd40fjwm-terraform-1.12.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/ssvlf1aacjgrldkqfc68nw234vq65yyj-terraform-1.12.1"
+          "store_path": "/nix/store/gijy95xda5c5wf094dwayb6kgd40fjwm-terraform-1.12.2"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/b06v2mz632zqc509bxcafzp9cc3c775l-terraform-1.12.1",
+              "path": "/nix/store/71hw4gz9h0vqyjj6qhddplcmmyd5vsin-terraform-1.12.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/b06v2mz632zqc509bxcafzp9cc3c775l-terraform-1.12.1"
+          "store_path": "/nix/store/71hw4gz9h0vqyjj6qhddplcmmyd5vsin-terraform-1.12.2"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/glikfly74v2wgaa1a174qm8y7fjjmyln-terraform-1.12.1",
+              "path": "/nix/store/1x2z0np2liayk7wiiyzsb56kqb8wjk5v-terraform-1.12.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/glikfly74v2wgaa1a174qm8y7fjjmyln-terraform-1.12.1"
+          "store_path": "/nix/store/1x2z0np2liayk7wiiyzsb56kqb8wjk5v-terraform-1.12.2"
         }
       }
     },
-    "vault-bin@1.19.4": {
-      "last_modified": "2025-05-22T23:55:03Z",
-      "resolved": "github:NixOS/nixpkgs/fe51d34885f7b5e3e7b59572796e1bcb427eccb1#vault-bin",
+    "vault-bin@1.19.5": {
+      "last_modified": "2025-06-02T09:36:13Z",
+      "resolved": "github:NixOS/nixpkgs/e4b09e47ace7d87de083786b404bf232eb6c89d8#vault-bin",
       "source": "devbox-search",
-      "version": "1.19.4",
+      "version": "1.19.5",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/an2j8i4s5kvlv2vfanwgjr00s4b3yvcp-vault-bin-1.19.4",
+              "path": "/nix/store/2vgq60s8kdxcq0kxlsrljxvvj49x8w6r-vault-bin-1.19.5",
               "default": true
             }
           ],
-          "store_path": "/nix/store/an2j8i4s5kvlv2vfanwgjr00s4b3yvcp-vault-bin-1.19.4"
+          "store_path": "/nix/store/2vgq60s8kdxcq0kxlsrljxvvj49x8w6r-vault-bin-1.19.5"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/gndi8g6fwrwg6hn7kp4gfzix4l25zj5h-vault-bin-1.19.4",
+              "path": "/nix/store/sh34xcsl63rbj46y9pmh0i99da6hm8hk-vault-bin-1.19.5",
               "default": true
             }
           ],
-          "store_path": "/nix/store/gndi8g6fwrwg6hn7kp4gfzix4l25zj5h-vault-bin-1.19.4"
+          "store_path": "/nix/store/sh34xcsl63rbj46y9pmh0i99da6hm8hk-vault-bin-1.19.5"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/001wq4arhqmb0nzj6yglbr7g2abnx63x-vault-bin-1.19.4",
+              "path": "/nix/store/khwknnpgszm01mmcbgkb4hyil6m02frw-vault-bin-1.19.5",
               "default": true
             }
           ],
-          "store_path": "/nix/store/001wq4arhqmb0nzj6yglbr7g2abnx63x-vault-bin-1.19.4"
+          "store_path": "/nix/store/khwknnpgszm01mmcbgkb4hyil6m02frw-vault-bin-1.19.5"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/wp91kblbjjpq3nhzzcgksh7w0l45bs2q-vault-bin-1.19.4",
+              "path": "/nix/store/1ar8inqxansk6x8pmqd1440ijzgawa5n-vault-bin-1.19.5",
               "default": true
             }
           ],
-          "store_path": "/nix/store/wp91kblbjjpq3nhzzcgksh7w0l45bs2q-vault-bin-1.19.4"
+          "store_path": "/nix/store/1ar8inqxansk6x8pmqd1440ijzgawa5n-vault-bin-1.19.5"
         }
       }
     }
