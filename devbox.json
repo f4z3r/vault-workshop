@@ -19,7 +19,7 @@
       ],
       "stop": [
         "pkill jupyter",
-        "pkill vault",
+        "pkill -x vault",
       ],
     },
   },

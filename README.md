@@ -32,21 +32,29 @@ independently from one another.
 
 ## Curriculum
 
-<!-- TODO(@f4z3r): refine this -->
-
 This workshop is aimed at providing a comprehensive overview on how to use Vault and how to operate
 it. It focuses on:
 
-1. Vault fundamentals, such as understanding the encryption barrier and seals.
-2. Usage:
-   1. Authentication methods.
-   2. Secret engines.
-3. Operations:
-   1. Root token generation.
-   2. Server configuration.
-   3. Terraform configuration.
-   4. Backup and Restore mechanisms.
-   5. Log analysis.
+1. Secret Engines
+   1. The Key Value secret engine.
+   2. Dynamic secrets: PostgreSQL.
+   3. PKI.
+2. Authentication Methods
+   1. The token auth method.
+   2. The LDAP auth method.
+   3. The Kubernetes auth method.
+   4. The JWT auth method.
+3. Policies
+   1. Standard policies.
+   2. Templated policies.
+4. Operations
+   1. Unsealing.
+   2. Root token generation.
+   3. Using the API.
+   4. Server configuration.
+   5. Terraform configuration.
+   6. Backup and Restore mechanisms.
+   7. Log analysis.
 
 ## Usage
 
