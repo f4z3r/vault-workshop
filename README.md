@@ -25,7 +25,8 @@ overview of how to use HashiCorp Vault in production.
 
 This workshop mostly focuses on the community (open source) version of Vault, with elements of the
 enterprise Vault potentially being added in the future. Moreover, this does not aim at replacing the
-official HashiCorp tutorials, but rather complement them.
+official HashiCorp tutorials, but rather complement them. It has a stronger focus on figuring stuff
+out, rather than providing directly all commands and one needs to run.
 
 The workshop is built on Jupiter Notebooks and is structured in modules that can be run
 independently from one another.
@@ -69,10 +70,12 @@ registry and get started:
 docker run --rm \
   -p 8888:8888 \
   -p 8200:8200 \
+  --network kind \
   --name vault-workshop \
   -v /tmp/vault \
   -v ./:/app/ \
-  ghcr.io/f4z3r/vault-workshop:v0.0.1
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  ghcr.io/f4z3r/vault-workshop:v0.0.2
 ```
 
 Then navigate `http://localhost:8888` in your browser. You will find the modules under the

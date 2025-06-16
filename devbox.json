@@ -7,6 +7,9 @@
     "vault-bin@1.19.5",
     "terraform@1.12.2",
     "openssl@3.4.1",
+    "kind@0.29.0",
+    "kubectl@1.33.1",
+    "docker-client@27.5.1",
   ],
   "shell": {
     "init_hook": [
