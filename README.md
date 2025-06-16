@@ -78,7 +78,7 @@ docker run --rm \
   ghcr.io/f4z3r/vault-workshop:v0.0.2
 ```
 
-Then navigate `http://localhost:8888` in your browser. You will find the modules under the
+Then navigate to `http://127.0.0.1:8888` in your browser. You will find the modules under the
 `./modules/`. Ideally start with `01-introduction.ipynb` to get some general information on the
 workshop.
 
@@ -110,7 +110,7 @@ documentation](https://www.jetify.com/docs/devbox/installing_devbox/) and then r
 devbox run start
 ```
 
-Then navigate `http://localhost:8888` in your browser. You will find the modules under the
+Then navigate to `http://127.0.0.1:8888` in your browser. You will find the modules under the
 `./modules/`. Ideally start with `01-introduction.ipynb` to get some general information on the
 workshop.
 
