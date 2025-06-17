@@ -38,24 +38,24 @@ it. It focuses on:
 
 1. Secret Engines
    1. The Key Value secret engine.
-   2. Dynamic secrets: PostgreSQL.
+   2. Dynamic secrets: PostgreSQL (in progress).
    3. PKI.
 2. Authentication Methods
-   1. The token auth method.
-   2. The LDAP auth method.
-   3. The Kubernetes auth method.
-   4. The JWT auth method.
+   1. The token auth method (in progress).
+   2. The LDAP auth method (in progress).
+   3. The Kubernetes auth method (in progress).
+   4. The JWT auth method (in progress).
 3. Policies
-   1. Standard policies.
+   1. Standard policies (in progress).
    2. Templated policies.
 4. Operations
    1. Unsealing.
-   2. Root token generation.
-   3. Using the API.
-   4. Server configuration.
-   5. Terraform configuration.
-   6. Backup and Restore mechanisms.
-   7. Log analysis.
+   2. Root token generation (in progress).
+   3. Using the API (in progress).
+   4. Server configuration (in progress).
+   5. Terraform configuration (in progress).
+   6. Backup and Restore mechanisms (in progress).
+   7. Log analysis (in progress).
 
 ## Usage
 
@@ -75,7 +75,7 @@ docker run --rm \
   -v /tmp/vault \
   -v ./:/app/ \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  ghcr.io/f4z3r/vault-workshop:v0.0.2
+  ghcr.io/f4z3r/vault-workshop:v0.0.3
 ```
 
 Then navigate to `http://127.0.0.1:8888` in your browser. You will find the modules under the

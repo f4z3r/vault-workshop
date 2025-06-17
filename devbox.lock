@@ -705,6 +705,54 @@
           "store_path": "/nix/store/1ar8inqxansk6x8pmqd1440ijzgawa5n-vault-bin-1.19.5"
         }
       }
+    },
+    "yq-go@4.45.4": {
+      "last_modified": "2025-05-16T20:19:48Z",
+      "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3#yq-go",
+      "source": "devbox-search",
+      "version": "4.45.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g96y9nqsb1icgna225hbdir827mik8v5-yq-go-4.45.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g96y9nqsb1icgna225hbdir827mik8v5-yq-go-4.45.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/l6k9y7s4wl8ymcgyk84nhgjnziamy1jz-yq-go-4.45.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/l6k9y7s4wl8ymcgyk84nhgjnziamy1jz-yq-go-4.45.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7xlp5q6f6lxinx31pccrfz6j8s4pmf1c-yq-go-4.45.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7xlp5q6f6lxinx31pccrfz6j8s4pmf1c-yq-go-4.45.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kflpx5ihql91daz6qmgp6bg477aip48z-yq-go-4.45.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kflpx5ihql91daz6qmgp6bg477aip48z-yq-go-4.45.4"
+        }
+      }
     }
   }
 }
