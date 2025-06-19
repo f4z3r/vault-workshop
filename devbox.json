@@ -9,7 +9,7 @@
     "openssl@3.4.1",
     "kind@0.29.0",
     "kubectl@1.33.1",
-    "docker-client@27.5.1",
+    "docker-client@28.2.2",
     "yq-go@4.45.4",
   ],
   "shell": {
