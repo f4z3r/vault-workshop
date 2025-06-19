@@ -2,9 +2,11 @@ FROM nixos/nix:latest@sha256:016f07dddeb5feabeb75c360edb840ff4df3b89c7e0ca7ff1fa
 
 WORKDIR /app
 
+RUN echo "filter-syscalls = false" >> /etc/nix/nix.conf;
+
 COPY devbox.json .
 COPY devbox.lock .
 
-RUN nix --extra-experimental-features "nix-command flakes" run nixpkgs#devbox install
+RUN nix --extra-experimental-features "nix-command flakes" run nixpkgs#devbox install;
 
 ENTRYPOINT ["nix", "--extra-experimental-features", "nix-command flakes", "run", "nixpkgs#devbox", "run", "start"]
