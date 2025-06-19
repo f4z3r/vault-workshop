@@ -1,51 +1,51 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "docker-client@27.5.1": {
-      "last_modified": "2025-05-16T20:19:48Z",
-      "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3#docker-client",
+    "docker-client@28.2.2": {
+      "last_modified": "2025-06-17T01:11:27Z",
+      "resolved": "github:NixOS/nixpkgs/c539ae8d21e49776966d714f82fba33b1fca78bc#docker-client",
       "source": "devbox-search",
-      "version": "27.5.1",
+      "version": "28.2.2",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/pybbyzjhaxnipawmh9mv394c67m8q28y-docker-27.5.1",
+              "path": "/nix/store/40k2pv7vyym8srmircjjhz4bcjdg1wp7-docker-28.2.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/pybbyzjhaxnipawmh9mv394c67m8q28y-docker-27.5.1"
+          "store_path": "/nix/store/40k2pv7vyym8srmircjjhz4bcjdg1wp7-docker-28.2.2"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/j1gwl4aqz3mqfxc937g03riklq0anp4x-docker-27.5.1",
+              "path": "/nix/store/06nrhlfv55bfi5w6mr5rvicmvq6r6zm9-docker-28.2.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/j1gwl4aqz3mqfxc937g03riklq0anp4x-docker-27.5.1"
+          "store_path": "/nix/store/06nrhlfv55bfi5w6mr5rvicmvq6r6zm9-docker-28.2.2"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/gwg18hcv9v36daz4kc7y26miha22i15f-docker-27.5.1",
+              "path": "/nix/store/yxnykcpppiln81k5q6zvs59mcgv42hxi-docker-28.2.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/gwg18hcv9v36daz4kc7y26miha22i15f-docker-27.5.1"
+          "store_path": "/nix/store/yxnykcpppiln81k5q6zvs59mcgv42hxi-docker-28.2.2"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/bknwxlgjh8casnaw0rnmz2vhzkch7hal-docker-27.5.1",
+              "path": "/nix/store/xvsx0d6sq594c9qkdcb5dnl36j54l8z3-docker-28.2.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/bknwxlgjh8casnaw0rnmz2vhzkch7hal-docker-27.5.1"
+          "store_path": "/nix/store/xvsx0d6sq594c9qkdcb5dnl36j54l8z3-docker-28.2.2"
         }
       }
     },
