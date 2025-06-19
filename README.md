@@ -67,6 +67,7 @@ The easiest way to get started is to use the latest `docker` image from the GitH
 registry and get started:
 
 ```sh
+docker network create kind
 docker run --rm \
   -p 8888:8888 \
   -p 8200:8200 \
