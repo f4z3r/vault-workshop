@@ -11,6 +11,7 @@
     "kubectl@1.33.1",
     "docker-client@28.2.2",
     "yq-go@4.45.4",
+    "gnupg@2.4.7",
   ],
   "shell": {
     "init_hook": [
