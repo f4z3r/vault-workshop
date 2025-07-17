@@ -51,11 +51,12 @@ it. It focuses on:
 4. Operations
    1. Unsealing.
    2. Root token generation (in progress).
-   3. Using the API (in progress).
-   4. Server configuration (in progress).
-   5. Terraform configuration (in progress).
-   6. Backup and Restore mechanisms (in progress).
-   7. Log analysis (in progress).
+   3. Unseal key share rotation.
+   4. Using the API (in progress).
+   5. Server configuration (in progress).
+   6. Terraform configuration (in progress).
+   7. Backup and Restore mechanisms (in progress).
+   8. Log analysis.
 
 ## Usage
 
