@@ -26,7 +26,11 @@ overview of how to use HashiCorp Vault in production.
 This workshop mostly focuses on the community (open source) version of Vault, with elements of the
 enterprise Vault potentially being added in the future. Moreover, this does not aim at replacing the
 official HashiCorp tutorials, but rather complement them. It has a stronger focus on figuring stuff
-out, rather than providing directly all commands and one needs to run.
+out, rather than providing directly all commands and one needs to run. Moreover it helps reduce the
+setup required to play with some integrations between Vault and other systems (e.g. Kubernetes) and
+the tooling required to interact with these systems. Finally, some "advanced" sections provide
+exercises without much guidance to allow the user to familiarise themselves with the official
+documentation and play around a little.
 
 The workshop is built on Jupiter Notebooks and is structured in modules that can be run
 independently from one another.
@@ -38,7 +42,7 @@ it. It focuses on:
 
 1. Secret Engines
    1. The Key Value secret engine.
-   2. Dynamic secrets: PostgreSQL (in progress).
+   2. Dynamic secrets: PostgreSQL.
    3. PKI.
 2. Authentication Methods
    1. The token auth method (in progress).
