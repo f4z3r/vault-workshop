@@ -45,7 +45,7 @@ it. It focuses on:
    2. Dynamic secrets: PostgreSQL.
    3. PKI.
 2. Authentication Methods
-   1. The token auth method (in progress).
+   1. The token auth method.
    2. The LDAP auth method (in progress).
    3. The Kubernetes auth method (in progress).
    4. The JWT auth method (in progress).
