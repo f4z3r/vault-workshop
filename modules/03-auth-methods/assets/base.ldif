@@ -1,53 +1,59 @@
-# base.ldif
+# extended LDIF
+#
+# LDAPv3
+# base <dc=example,dc=org> with scope subtree
+# filter: (objectclass=*)
+# requesting: ALL
+#
 
-# 1. Define the base domain
+# example.org
 dn: dc=example,dc=org
-objectClass: top
 objectClass: dcObject
 objectClass: organization
-o: Example Organization
 dc: example
+o: example
 
-# 2. Create the Organizational Units (OUs)
-dn: ou=people,dc=example,dc=org
-objectClass: top
+# users, example.org
+dn: ou=users,dc=example,dc=org
 objectClass: organizationalUnit
-ou: people
+ou: users
 
+# groups, example.org
 dn: ou=groups,dc=example,dc=org
-objectClass: top
 objectClass: organizationalUnit
 ou: groups
 
-# 3. Create the two users (password: user1)
-dn: uid=user1,ou=people,dc=example,dc=org
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
+# user01, users, example.org
+dn: cn=user01,ou=users,dc=example,dc=org
+cn: User1
+cn: user01
+sn: Bar1
 objectClass: inetOrgPerson
-cn: User One
-sn: One
-uid: user1
-userPassword: {SSHA}SULHlljwSJtX6nG7dpDH3HCzKdR+l9Wh
+objectClass: posixAccount
+objectClass: shadowAccount
+userPassword:: Yml0bmFtaTE=
+uid: user01
+uidNumber: 1000
+gidNumber: 1000
+homeDirectory: /home/user01
 
-# (password: user2)
-dn: uid=user2,ou=people,dc=example,dc=org
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
+# user02, users, example.org
+dn: cn=user02,ou=users,dc=example,dc=org
+cn: User2
+cn: user02
+sn: Bar2
 objectClass: inetOrgPerson
-cn: User Two
-sn: Two
-uid: user2
-userPassword: {SSHA}/LsUaPfrlhNdbhy59bT8HuisvQstBeKY
+objectClass: posixAccount
+objectClass: shadowAccount
+userPassword:: Yml0bmFtaTI=
+uid: user02
+uidNumber: 1001
+gidNumber: 1001
+homeDirectory: /home/user02
 
-# 4. Create the group and add the two users as members
-dn: cn=staff,ou=groups,dc=example,dc=org
-objectClass: top
+# readers, groups, example.org
+dn: cn=readers,ou=groups,dc=example,dc=org
+cn: readers
 objectClass: groupOfNames
-cn: staff
-member: uid=user1,ou=people,dc=example,dc=org
-member: uid=user2,ou=people,dc=example,dc=org
-
-# sudo slapd -f /path/to/your/slapd.conf -h "ldap:/// ldaps:///"
-# ldapadd -x -D "cn=admin,dc=example,dc=org" -W -f base.ldif
+member: cn=user01,ou=users,dc=example,dc=org
+member: cn=user02,ou=users,dc=example,dc=org
