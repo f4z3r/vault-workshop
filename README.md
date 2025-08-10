@@ -81,7 +81,7 @@ docker run --rm \
   -v /tmp/vault \
   -v ./:/app/ \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  ghcr.io/f4z3r/vault-workshop:v0.0.7
+  ghcr.io/f4z3r/vault-workshop:v0.0.8
 ```
 
 Then navigate to `http://127.0.0.1:8888` in your browser. You will find the modules under the
