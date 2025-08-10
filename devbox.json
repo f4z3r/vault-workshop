@@ -13,6 +13,7 @@
     "yq-go@4.46.1",
     "gnupg@2.4.8",
     "postgresql@17.5",
+    "openldap@2.6.9",
   ],
   "shell": {
     "init_hook": [

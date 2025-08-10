@@ -377,6 +377,106 @@
         }
       }
     },
+    "openldap@2.6.9": {
+      "last_modified": "2025-08-02T16:19:54Z",
+      "resolved": "github:NixOS/nixpkgs/7b6929d8b900de3142638310f8bc40cff4f2c507#openldap",
+      "source": "devbox-search",
+      "version": "2.6.9",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1rici5n17b42hhzy0x462129vk7fhwpk-openldap-2.6.9",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/ch790hcshm3d067sr0n2phy8sg7zic6l-openldap-2.6.9-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/8gwbhmbichazm4ya52hzwdsv3hzqnrzy-openldap-2.6.9-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/ccwqis99qjcg6r5hk8ba62z20x43wcwf-openldap-2.6.9-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/1rici5n17b42hhzy0x462129vk7fhwpk-openldap-2.6.9"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/a1307xzzkgl2xq2j9divmm3jmbd7ii2y-openldap-2.6.9",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/b1bkq3jz2bzk91s1r6q0rqqf5sn8i2lj-openldap-2.6.9-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/xvysrlpalisflibg40g1207wz9bp5wih-openldap-2.6.9-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/8c1i4gxr2cawpn7hzf5mx3n92fx4ih11-openldap-2.6.9-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/a1307xzzkgl2xq2j9divmm3jmbd7ii2y-openldap-2.6.9"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ix98k1sllbaqb0d6mjjm8w4fy6rwcbm7-openldap-2.6.9",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/brmrwjg99cny9k2akajgbdnx18rqjccb-openldap-2.6.9-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/ah19gcqdyihf1v281kvnvr8pp9lm9l8j-openldap-2.6.9-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/nj5gi9qi44vdn7bng9prfljfdcf61cd5-openldap-2.6.9-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/ix98k1sllbaqb0d6mjjm8w4fy6rwcbm7-openldap-2.6.9"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4akr8rqm2z8mxvmphszc4y9n41k6z41x-openldap-2.6.9",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/q5r6bn95jgaqfx18z4khdya4w76lpkws-openldap-2.6.9-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/fgc5inq4bjycz5ivnjpr55hnx47gc45x-openldap-2.6.9-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/f7ih0701psqx5mcb20qzakymqbxxlydn-openldap-2.6.9-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/4akr8rqm2z8mxvmphszc4y9n41k6z41x-openldap-2.6.9"
+        }
+      }
+    },
     "openssl@3.5.1": {
       "last_modified": "2025-07-15T16:15:05Z",
       "resolved": "github:NixOS/nixpkgs/dab3a6e781554f965bde3def0aa2fda4eb8f1708#openssl",
