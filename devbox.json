@@ -4,7 +4,7 @@
     "python313Packages.jupyterlab@4.4.3",
     "python313Packages.bash-kernel@0.10.0",
     "jq@1.8.1",
-    "vault-bin@1.20.0",
+    "vault-bin@1.20.1",
     "terraform@1.12.2",
     "openssl@3.5.1",
     "kind@0.29.0",
