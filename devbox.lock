@@ -1,51 +1,41 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "docker-client@28.3.3": {
-      "last_modified": "2025-08-05T11:35:34Z",
-      "resolved": "github:NixOS/nixpkgs/a683adc19ff5228af548c6539dbc3440509bfed3#docker-client",
+    "docker-client@29.9.1": {
+      "last_modified": "2026-10-19T15:20:57Z",
+      "resolved": "github:NixOS/nixpkgs/682ba80136e2c8dacd6b8900f578a72329458901#docker-client",
       "source": "devbox-search",
-      "version": "28.3.3",
+      "version": "29.9.1",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/6x679ch4cqa5aywjsrnplsasv5rp0mak-docker-28.3.3",
+              "path": "/nix/store/r32zchb6mflrg5hzhyrxahpj95yikb37-docker-29.9.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/6x679ch4cqa5aywjsrnplsasv5rp0mak-docker-28.3.3"
+          "store_path": "/nix/store/r32zchb6mflrg5hzhyrxahpj95yikb37-docker-29.9.1"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/20jkkv1329knp203glzbv4mjlimhhkxa-docker-28.3.3",
+              "path": "/nix/store/91l1bkjl0p9218d8zmz75cykw4z81ya4-docker-29.9.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/20jkkv1329knp203glzbv4mjlimhhkxa-docker-28.3.3"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/g3h7m6qsx5rkb908qcqi4a6kflvcriz5-docker-28.3.3",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/g3h7m6qsx5rkb908qcqi4a6kflvcriz5-docker-28.3.3"
+          "store_path": "/nix/store/91l1bkjl0p9218d8zmz75cykw4z81ya4-docker-29.9.1"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/kmz6pix1401ddzjcfj92dggd87v0nl8a-docker-28.3.3",
+              "path": "/nix/store/pkwsip6l7aagd3h2lsbg07yyz0jff5n3-docker-29.9.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/kmz6pix1401ddzjcfj92dggd87v0nl8a-docker-28.3.3"
+          "store_path": "/nix/store/pkwsip6l7aagd3h2lsbg07yyz0jff5n3-docker-29.9.1"
         }
       }
     },
@@ -920,7 +910,7 @@
     },
     "python@3.13.3": {
       "last_modified": "2025-05-16T20:19:48Z",
-      "plugin_version": "0.0.4",
+      "plugin_version": "0.0.5",
       "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3#python313",
       "source": "devbox-search",
       "version": "3.13.3",
