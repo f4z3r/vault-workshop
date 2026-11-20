@@ -1,4 +1,4 @@
-FROM nixos/nix:latest@sha256:7894650fb65234b35c80010e6ca44149b70a4a216118a6b7e5c6f6ae377c8d21 AS builder
+FROM nixos/nix:latest@sha256:746280551ddc1c72177d1a597c05eacac86dfaa18d5d649bf86411278bcd5470 AS builder
 
 WORKDIR /app
 
